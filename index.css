@@ -1,0 +1,140 @@
+/*all tag*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 1.5625vw;
+	border:none;
+	font-family: "微软雅黑";
+}
+html,body{
+	height:100%;
+}
+.container{
+	width:100%;
+	height:400%;
+}
+/*homePage*/
+.homePage{
+	position: relative;
+	width:100%;
+	height:25%;
+	background:url("images/h5背景.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}
+/*page1*/
+.homePage-page1 img{
+	display: block;
+	width:86.7vw;
+	height:65vh;
+	margin:15vh auto;
+}
+/*page2*/
+.homePage-page2 img{
+	width:100%;
+	height:80vh;
+	margin:10vh auto;
+}
+/*page3*/
+.homePage-page3 img:first-of-type{
+ 	width:100%;
+	height:65vh;
+	margin-top:5vh;
+}
+.homePage-page3 img:last-of-type{
+ 	width:100%;
+	height:20vh;
+}
+/*page4*/
+.homePage-page4{
+	position: relative;
+}
+
+#fourhome{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background: url("images/四个书屋.png") no-repeat center center;
+	background-size: 100% 100%;
+}
+#rule{
+	position: absolute;
+	right:7vw;
+	top:10vh;
+	width:6vw;
+	height: 5vh;
+	border-radius: 50%;
+	opacity: 0;
+}
+#rule1{
+	display: none;
+	position: absolute;
+	right:5vw;
+	top:2vh;
+	width:6vw;
+	height: 5vh;
+	border-radius: 50%;
+	opacity: 0;
+}
+#delete,#delete1{
+	position: absolute;
+	display: none;
+	right:10vw;
+	top:18vh;
+	width:8vw;
+	height: 5vh;
+	opacity: 0;
+}
+#delete1{
+	background-color: red;
+}
+.toggle{
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+.friend{
+	float: left;
+	width:30vw;
+	height:22vh;
+	margin-top:25vh;
+	margin-left: 10vw;
+	opacity:0;
+}
+.parent{
+	float: right;
+	width:40vw;
+	height:20vh;
+	margin-top:25vh;
+	margin-right: 10vw;
+	opacity:0;
+}
+.heart{
+	clear: both;
+	float: left;
+	width:40vw;
+	height:17vh;
+	margin-top:8vh;
+	margin-left: 10vw;
+	opacity:0;
+}
+.part{
+	clear: both;
+	float: right;
+	width:30vw;
+	height:30vh;
+	margin-top:-25vh;
+	margin-right: 10vw;
+	opacity:0;
+}
+.toggle-bottom{
+	display: none;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:10vh;
+}
+.toggle-bottom input{
+	width:32%;
+	height:100%;
+	opacity: 0;
+}
